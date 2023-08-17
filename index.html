@@ -1,0 +1,45 @@
+<script>
+   
+
+let options = prompt(`Welcome to UBA how can we help you ?
+ 1. Deposit 
+ 2. withdrawal
+ 3. Transfer
+ 4. My Balance`)
+if(options == "1"){
+  let Deposit = prompt("please enter the amount")
+let verdict= Deposit >= 1000 
+prompt(console.log(`please enter your pin`)) 
+ 
+}
+ else{
+    alert("Incorrect Input")
+}
+
+
+if(options == "2"){
+  let forOthers = prompt("please enter the amount")
+let verdict= forOthers < 99 ? `alert("You can only Recharge
+ #100 above")` : alert("please enter your pin")
+let yourPin = prompt(`please enter your pin`)
+ alert("Recharge successful")
+}
+
+
+if(options == "3"){
+ let myBalance = prompt("enter your pin")
+ prompt(myBalance) = 10;
+}
+if(options == "4"){
+  let myBalance = prompt("enter your pin")
+ myBalance = 10;
+    let deposit = +(prompt("please enter the deposit amount"));
+    myBalance = myBalance + deposit;
+    alert(`your new account balance
+     is ${myBalance}`)
+}
+ 
+ 
+
+
+</script>
